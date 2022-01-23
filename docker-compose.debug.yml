@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ctest:
+    image: ctest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
