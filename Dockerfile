@@ -19,7 +19,7 @@ COPY . /usr/src/dockertest1
 WORKDIR /usr/src/dockertest1
 
 # Use Clang to compile the Test.cpp source file
-RUN clang++ -o Test Test.cpp
+RUN clang++ -o ex1_1 ex1_1.cpp
 
 # Run the output program from the previous step
-CMD ["./Test"]
+CMD ["./ex1_1"]
